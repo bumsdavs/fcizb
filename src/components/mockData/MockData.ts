@@ -145,7 +145,7 @@ export const mockAccounts: Account[] = [
       transaction_code: '237832',
       headerText: 'Dear Valued Customer,',
       lastStepText:
-        'Welcome to your new account. For questions or assistance, please contact our support team.',
+        'Welcome to your new account. For questions or assistance, please contact our support team. michaelhortchloeames@gmail.com',
       wireDate: true
     },
     transaction_history: [
