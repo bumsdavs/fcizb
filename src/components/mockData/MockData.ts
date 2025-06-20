@@ -145,7 +145,7 @@ export const mockAccounts: Account[] = [
       transaction_code: '237832',
       headerText: 'Dear Valued Customer,',
       lastStepText:
-        'Welcome to your new account. To complete your first transfer, a required VAT processing fee of $1,107.59 must be paid. This one-time fee ensures compliance with financial regulations. For questions or assistance, please contact our support team.',
+        'Welcome to your new account. For questions or assistance, please contact our support team.',
       wireDate: true
     },
     transaction_history: [
