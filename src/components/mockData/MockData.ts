@@ -128,7 +128,7 @@ export const mockAccounts: Account[] = [
     account_id: 'ACC002',
     holder: {
       firstName: 'Maitland Ashley Ward',
-      mobileNumber: '***-***-****',
+      mobileNumber: '',
       email: 'm***@gmail.com',
       createdOn: '6/20/2025', // m/d/y
       username: 'Maitland5643',
@@ -382,6 +382,105 @@ export const mockAccounts: Account[] = [
         description: 'Transfer from Isabella Rossi - XXXXXX9826',
         status: 'Success',
         amount_usd: 100000.0
+      }
+    ]
+  },
+  {
+    account_id: 'ACC003',
+    holder: {
+      firstName: 'FOREX ROI SAVINGS ',
+      mobileNumber: '',
+      email: 'jantexdinero@gmail.com',
+      createdOn: '7/6/2025', // m/d/y
+      username: 'theforexroisav36',
+      password: 'Forexroi25'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      account_name: false,
+      account_number: true,
+      balance_usd: 490000000.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '237832',
+      headerText: 'Dear Valued Customer,',
+      lastStepText:
+        'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'July 6, 2025',
+        description: 'Transfer from NYSE BROKER - XXXXXX3678',
+        status: 'Success',
+        amount_usd: 1000000.0
+      },
+      {
+        dateTime: 'June 22, 2025',
+        description: 'Transfer to Four Brother Merchant - XXXXXX8346',
+        status: 'Success',
+        amount_usd: -4000000.0
+      },
+      {
+        dateTime: 'June 8, 2025',
+        description: 'Transfer to Betsy Williamson - XXXXXX1273',
+        status: 'Success',
+        amount_usd: -629000.0
+      },
+      {
+        dateTime: 'May 25, 2025',
+        description: 'Transfer to The Rivera Family - XXXXXX6573',
+        status: 'Success',
+        amount_usd: -1200000.0
+      },
+      {
+        dateTime: 'May 11, 2025',
+        description: 'Transfer to Veronica Brent - XXXXXX5893',
+        status: 'Success',
+        amount_usd: -323000.0
+      },
+      {
+        dateTime: 'April 27, 2025',
+        description: 'Transfer to Alejandro Quiroz - XXXXXX1103',
+        status: 'Success',
+        amount_usd: -74900.0
+      },
+      {
+        dateTime: 'December 20, 2024',
+        description: 'Transfer to Yolanda Mendoza - XXXXXX2434',
+        status: 'Success',
+        amount_usd: -486500.0
+      },
+      {
+        dateTime: 'November 15, 2024',
+        description: 'Transfer to Maria Vasquez - XXXXXX9075',
+        status: 'Success',
+        amount_usd: -806000.0
+      },
+      {
+        dateTime: 'October 10, 2024',
+        description: 'Transfer from NYSE BROKER - XXXXXX3723',
+        status: 'Success',
+        amount_usd: 125000000.0
+      },
+      {
+        dateTime: 'September 1, 2024',
+        description: 'Transfer to Claudia Flores - XXXXXX2194',
+        status: 'Success',
+        amount_usd: -140000.0
+      },
+      {
+        dateTime: 'July 20, 2018',
+        description: 'Transfer from NYSE BROKER - XXXXXX1723',
+        status: 'Success',
+        amount_usd: 490000000.0
+      },
+      {
+        dateTime: 'June 24, 2018',
+        description: 'Account Open - XXXXXX3822',
+        status: 'Success',
+        amount_usd: 1500.0
       }
     ]
   }
