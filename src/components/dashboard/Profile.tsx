@@ -7,6 +7,7 @@ import React, { useEffect, useState } from 'react';
 import { GoCheckCircleFill } from 'react-icons/go';
 import { IoIosArrowBack } from 'react-icons/io';
 import Loader from '../Loader';
+import { MdEmail, MdSupportAgent } from 'react-icons/md';
 
 export default function Profile() {
   const router = useRouter();
@@ -78,6 +79,34 @@ export default function Profile() {
             </div>
           )}
         </div>
+        {user.support && (
+          <div className="">
+            <p className="text-[#252525] flex gap-1 items-center font-semibold mb-2">
+              <MdSupportAgent /> Support
+            </p>
+            <div className="bg-white text-sm rounded-lg p-5 py-7 flex flex-col items-center justify-center gap-8 mb-4">
+              {user.support?.support_number && (
+                <div className="flex w-full justify-between items-center">
+                  <span className="text-[#3f3f3f] font-normal">Phone</span>
+                  <span className="text-[#252525] font-medium flex items-center gap-1">
+                    <span className="bg-[#007255]/30 text-black text-xs p-2 py-1 rounded-lg flex items-center gap-1">
+                      <GoCheckCircleFill />
+                    </span>
+                    <span>{user.holder.mobileNumber}</span>
+                  </span>
+                </div>
+              )}
+              {user.support?.support_email && (
+                <div className="flex w-full justify-between items-center">
+                  <span className="text-[#3f3f3f] flex items-center gap-1 font-normal">
+                    <MdEmail /> Email
+                  </span>
+                  <span className="text-[#252525] font-medium flex items-center gap-1">{user.support.support_email}</span>
+                </div>
+              )}
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );

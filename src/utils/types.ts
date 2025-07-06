@@ -24,6 +24,11 @@ export interface Account {
     balance_usd: number;
     saving_balance_usd?: number;
   };
+  support?: {
+    support_number?: string;
+    support_email?: string;
+    support_website?: string;
+  };
   transaction_mgs_code: {
     transaction_text_msg?: string;
     transaction_code?: string;

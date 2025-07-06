@@ -390,7 +390,7 @@ export const mockAccounts: Account[] = [
     holder: {
       firstName: 'FOREX ROI SAVINGS ',
       mobileNumber: '',
-      email: 'jantexdinero@gmail.com',
+      email: 'f*@gmail.com',
       createdOn: '7/6/2025', // m/d/y
       username: 'theforexroisav36',
       password: 'Forexroi25'
@@ -400,6 +400,10 @@ export const mockAccounts: Account[] = [
       account_name: false,
       account_number: true,
       balance_usd: 490000000.0
+    },
+    support: {
+      support_number: '',
+      support_email: 'jantexdinero@gmail.com'
     },
     transaction_mgs_code: {
       transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
