@@ -406,7 +406,7 @@ export const mockAccounts: Account[] = [
       transaction_code: '237832',
       headerText: 'Dear Valued Customer,',
       lastStepText:
-        'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+        "Transfer declined, to proceed with the transfer, please ensure all tax debts are paid in full, with a minimum payment of $XXXX. This requirement aligns with regulatory guidelines. For any questions or concerns, please don't hesitate to contact defense department. Thank you",
       wireDate: true
     },
     transaction_history: [
